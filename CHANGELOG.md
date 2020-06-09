@@ -11,6 +11,13 @@ rebalancing of consumer groups.
    assignments.
 
 
+## Fixes
+
+### Consumer fixes
+
+ * The consumer assignors could ignore some topics if there were more subscribed
+   topics than consumers in taking part in the assignment.
+
 
 
 
